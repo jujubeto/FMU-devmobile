@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    app:cardElevation="5dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="@color/material_dynamic_neutral40">
+
+    <RelativeLayout
+        android:id="@+id/cardViewRelLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:background="@color/cinza_claro">
+
+        <TextView
+            android:id="@+id/recCardNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Salário"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/recData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recCardNome"
+            android:layout_marginTop="5dp"
+            android:text="26/11/2023"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/recValorBrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:text="R$ 1.100,99"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/verde" />
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

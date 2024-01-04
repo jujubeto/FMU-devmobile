@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fabInfo"
+    tools:context=".InfoActivity"
+    android:background="@color/cinza_claro">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/info_projeto"
+        android:layout_width="370dp"
+        android:layout_height="390dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="150dp"
+        android:backgroundTint="@color/cinza_escuro"
+        app:cardElevation="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tittle_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="INFORMAÇÕES DO APP:"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/conteudo_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="70dp"
+            android:text="Projeto ministrado pelo curso de análise e desenvolvimento de sistemas - FMU 23.2 com objetivo principal de desenvolver habilidades mobile num app de gestão financeira, onde seu objetivo principal é gerenciar as contas do usuário de forma que se use cada vez menos o papel e caneta, tendo contrrole de seus gastos em suas mãos através de um 'click'."
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/alunos_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="250dp"
+            android:textStyle="bold|italic"
+            android:text="Guilherme Correia Martins - RA: 1743475
+    Alisson fernandes da Silva - RA: 1826277
+    Gilberto Balogh Neto - RA: 1872948"
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabReturnMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

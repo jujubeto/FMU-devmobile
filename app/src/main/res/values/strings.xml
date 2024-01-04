@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Money.io</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="brl">R$</string>
+    <string name="Saldo">Saldo</string>
+
+    <string name="categAlimentação">Alimentação</string>
+    <string name="categAssinatura">Assinatura</string>
+    <string name="categBeleza">Beleza</string>
+    <string name="categEducação">Educação</string>
+    <string name="categEmergência">Emergência</string>
+    <string name="categInvestimento">Investimento</string>
+    <string name="categLazer">Lazer</string>
+    <string name="categMoradia">Moradia</string>
+    <string name="categMercadoria">Mercadoria</string>
+    <string name="categSaúde">Saúde</string>
+    <string name="categTransporte">Transporte</string>
+    <string name="categOutro">Outro</string>
+</resources>

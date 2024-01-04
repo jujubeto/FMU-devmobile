@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nova Despesa"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/inputDespesaDescr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex: Compra no mercado"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custo:"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/inputDespesaValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="R$  00,00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Categoria:"
+        android:textSize="16sp"/>
+    <Spinner
+        android:id="@+id/spinnerCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/categorias"/>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias">
+        <item>@string/categAlimentação</item>
+        <item>@string/categAssinatura</item>
+        <item>@string/categBeleza</item>
+        <item>@string/categEducação</item>
+        <item>@string/categEmergência</item>
+        <item>@string/categInvestimento</item>
+        <item>@string/categLazer</item>
+        <item>@string/categMoradia</item>
+        <item>@string/categMercadoria</item>
+        <item>@string/categSaúde</item>
+        <item>@string/categTransporte</item>
+        <item>@string/categOutro</item>
+    </string-array>
+</resources>
